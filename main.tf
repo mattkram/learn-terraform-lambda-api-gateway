@@ -23,7 +23,7 @@ provider "aws" {
 
 resource "random_pet" "lambda_bucket_name" {
   prefix = "learn-terraform-functions"
-  length = 4
+  length = 3
 }
 
 resource "aws_s3_bucket" "lambda_bucket" {
